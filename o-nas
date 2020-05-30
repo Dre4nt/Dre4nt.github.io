@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Кофейня</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Шрифты подключенные к сайту -->
+        <link href="https://fonts.googleapis.com/css2?family=Marmelad&display=swap" rel="stylesheet"> </head>
+    <body>
+        <!-- Основной блок сайта -->
+        <div id="basic">
+            <!-- Шапка сайта -->
+            <div id="head-site">
+                <a href="#"><img src="logo.png" alt="Кофейня" title="Кофейня" class="logo" align="middle"><p1> Кофейня</p1></a>
+                <img src="telefon.png" alt="+7(353)725-60-60" title="+7(353)725-60-60" class="telefon" >
+                <big>+7(353)725-60-60</big>
+            </div>   
+            <!-- Верхнее меню сайта -->
+            <div id="menu-top">
+                <div class="bg-1">
+                    <ul>
+                        <li><a href="o-nas.html" style="margin-right:25px;">О нас</a></li>
+                        <li><a href="index.html" style="margin-right:25px;">Ассортимент</a></li>
+                        <li><a href="otzivi.html"style="margin-right:25px;">Отзывы</a></li>
+                        <li><a href="zabronirovat-stolik.html"style="margin-right:25px;">Забронировать столик</a></li>
+                        <li><a href="kontakty.html" style="margin-right:25px;">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="bg-2"></div>
+            </div>
+            <!-- Левое меню и Контент -->
+            <div id="content">
+                <!-- Контент - правый блок -->
+                    <h1>О нас</h1>
+
+                    <p>Мы элитная московская кофейня. Работающая с 1992 года. У нас работают самые лучшие бариста со всего света. Они настоящие мастера своего дела. Не верите? Так приходите и убедитесь сами.</p>
+                    
+                    <center><img src="img1.jpg" alt="img1" title="" style="margin-right:40px;"/>
+                    <img src="img10.jpg" alt="img10" title="" style="margin-right:40px;" width="200" height="200"/>
+                    <img src="img4.jpg" alt="img4" title="" width="200" height="200"/></center>
+                    <center><img src="barista.webp" title="" width="690" height="370"/></center>
+    
+                </div>
+                
+            <!-- Подвал -->
+            <div id="podval">
+                <div class="yellow"></div>
+                <div class="p1">ООО “Кофейня” 2020г.<br/>
+                    г. Москва, ул Революционная 1а</div>
+                <div><img src="oplata.png" class="oplata"/></div>
+            </div>
+            <div class="myclr"></div>
+        </div>
+    </body>
+</html>
